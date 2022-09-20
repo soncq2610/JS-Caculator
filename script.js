@@ -11,6 +11,7 @@ function pressNumber(value){
         if(active!=0 || document.getElementById("result").value=="0" || reset == 1 || document.getElementById("result").value=="ERROR"){
             document.getElementById("result").value="";
             active = 0;
+            reset = 0;
         }
         document.getElementById("result").value+=value;
         back = 0;
